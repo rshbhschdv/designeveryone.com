@@ -1,0 +1,12 @@
+baseURL = "https://designeveryone.com/"
+languageCode = "en-us"
+title = "designeveryone"
+disableKinds = ["taxonomy", "term", "rss", "section"]
+
+[params]
+  description = "A taxonomy of 92 design fields across four categories."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
